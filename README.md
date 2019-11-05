@@ -3,10 +3,10 @@ AI识物提供免费、便捷、精准的ocr文字识别服务，将图片转化
 
 本小程序前端页面和逻辑参考[AI识物](https://github.com/lrqnew/AI-General-things)行改造升级，后端采用PHP进行接口开发，利用第三方AI接口进行功能对接。<br>
 
-在线体验小程序：
+在线体验小程序：<br>
 <img  src='https://api.alipay168.cn/source/comm/images/xcx.jpg' alt='在线体验' width='250' />
 
-赞赏小程序:
-<img width='250'   src='https://api.alipay168.cn/source/comm/images/wx.jpg' alt='微信支付' />
+赞赏小程序:<br>
+<img width='200' style="float:left;"  src='https://api.alipay168.cn/source/comm/images/wx.jpg' alt='微信支付' />
 
-
+<img width='200' style="float:right;"  src='https://api.alipay168.cn/source/comm/images/alipay.jpg' alt='支付宝' />
