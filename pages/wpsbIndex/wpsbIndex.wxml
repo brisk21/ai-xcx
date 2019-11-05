@@ -1,0 +1,32 @@
+<view class='big'>
+  <view class="pic">
+    <view class="img">
+      <swiper class='slid' autoplay="true" interval="2000">
+        <block>
+          <swiper-item >
+            <view class='headView'>
+              <image class='icon' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560405881646&di=50387f8927d68023a2533cb3341539b4&imgtype=0&src=http%3A%2F%2F163ed.com%2Fshougong%2Fuploadfiles_4699%2F201207%2F2012070323472080.jpg"></image>
+              <view class='icon'></view>
+            </view>
+            <view class='detail'>
+              <view class='userName'>拍照知万物</view>
+              拍照知万物，拍照识别物品，已经收录500000种物品信息，了解万物相关知识。
+            </view>
+          </swiper-item>
+         
+        </block>
+
+      </swiper>
+      <button bindtap="AdvancedGeneral" class='btn' id="camera">
+        <i-icon type="camera_fill" size="28" color="#fff" /> 拍照识别
+      </button>
+      <view class='xc' bindtap="AdvancedGeneral" id="album">
+        <text>从相册选择></text>
+        {{id}}
+      </view>
+    
+    </view>
+  </view>
+
+
+</view>

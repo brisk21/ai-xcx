@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="img">
+        <image src="{{img}}"></image>
+    </view>
+    <view class="info" wx:for="{{testData}}">
+        <text selectable="true">{{item.words}}</text>
+    </view>
+    <view style="margin-top: 10rpx;">
+        <button bindtap="copy" type="warn">一键复制</button>
+    </view>
+    <view style="width:100%;height:100%;padding-top:106rpx;">
+        <ad unit-id="adunit-52cb118342b9adc7"></ad>
+    </view>
+</view>
