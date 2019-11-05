@@ -13,7 +13,7 @@
 <view class="text">AI识物的使用完全免费，但也需要有相应的资金支持才能持续项目的维护与升级，您可以通过微信来赞助本程序。</view>
 <view class="text">赞助资金将用于服务器维护、程序三期升级计划。</view>
 <view class="cont">
-    <!-- <view bindtap="goWx" class="btn">
+     <view bindtap="goWx" class="btn">
         <image mode="widthFix" src="../images/wbchat.png"></image>
         <text>开发者微信</text>
     </view>
@@ -21,8 +21,12 @@
     <view bindtap="goZan" class="btn btn2">
         <image mode="widthFix" src="../images/zan.png"></image>
         <text>赞助支持</text>
-    </view>-->
-    <button wx:if="{{canIUse}}" class="btn" open-type="getUserInfo" bindtap="goWx"  bindgetuserinfo="bindGetUserInfo">开发者微信</button>
+    </view>
+    <!-- <button wx:if="{{canIUse}}" class="btn" open-type="getUserInfo" bindtap="goWx"  bindgetuserinfo="bindGetUserInfo">开发者微信</button>
+     <view bindtap="goZan" class="btn btn2">
+        <image mode="widthFix" src="../images/zan.png"></image>
+        <text>赞助支持</text>
+    </view> -->
 </view>
 <view class="tag">
     <text class="dot">#</text>

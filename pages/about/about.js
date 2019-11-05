@@ -52,7 +52,7 @@ Page({
   goZan: function() {
     wx.navigateToMiniProgram({
       appId: "wx18a2ac992306a5a4",
-      path: "pages/apps/largess/detail?id=gRGI0AFk6Us%3D",
+      path: "pages/apps/largess/detail?id=Jerpw4hPtFg%3D",
       extraData: {
         foo: 'bar'
       },
