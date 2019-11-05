@@ -4,8 +4,8 @@ AI识物提供免费、便捷、精准的ocr文字识别服务，将图片转化
 本小程序前端页面和逻辑参考[AI识物](https://github.com/lrqnew/AI-General-things)行改造升级，后端采用PHP进行接口开发，利用第三方AI接口进行功能对接。<br>
 
 在线体验小程序：
-![扫码体验](https://github.com/brisk21/ai-xcx/raw/master/pages/images/xcx.jpg)
+![扫码体验](https://github.com/brisk21/ai-xcx/blob/master/pages/images/xcx.jpg?raw=true)
 <br>
 赞赏小程序:
-![微信支付](https://github.com/brisk21/ai-xcx/raw/master/pages/images/wx.jpg)<br>
+![微信支付](https://github.com/brisk21/ai-xcx/blob/master/pages/images/wx.jpg?raw=true)<br>
 
