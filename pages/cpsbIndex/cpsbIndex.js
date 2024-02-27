@@ -11,6 +11,7 @@ Page({
   
   //拍照识菜
   Dishes: function (a) {
+    console.log('click')
     let types=a.currentTarget.id;
     wx.chooseImage({
         count: 1,

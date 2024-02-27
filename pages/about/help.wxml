@@ -3,7 +3,7 @@
     <text>文字识别不够准确</text>
 </view>
 <view class="text">在选择上传图片时，点击原图（上传），可以有效提升识别的准确率（但也需要牺牲更多的上传等待时间）</view>
-<view class="tip">Tip：AI识物采用全球先进的中文通用OCR识别服务，比大多数同类产品已有更准确的识别精度。</view>
+<view class="tip">Tip：图片识别采用全球先进的中文通用OCR识别服务，比大多数同类产品已有更准确的识别精度。</view>
 <view class="tag">
     <text class="dot">#</text>
     <text>上传图片后一直显示“正在识别”，或无任何反映</text>

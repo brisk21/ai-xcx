@@ -3,14 +3,14 @@
 </view>
 <view class="tag">
     <text class="dot">#</text>
-    <text>关于AI识物</text>
+    <text>关于图片识别</text>
 </view>
-<view class="text">AI识物提供免费、便捷、精准的ocr文字识别服务，将图片转化为可编辑文字，为用户日常输入助力。经过多次版本迭代升级，并加入菜品、植物、动物、车辆识别、人脸检测、菜谱大全，服务更加丰富、趣味，深受广大用户好评。</view>
+<view class="text">图片识别提供免费、便捷、精准的ocr文字识别服务，将图片转化为可编辑文字，为用户日常输入助力。经过多次版本迭代升级，并加入菜品、植物、动物、车辆识别、人脸检测、菜谱大全，服务更加丰富、趣味，深受广大用户好评。</view>
 <view class="tag">
     <text class="dot">#</text>
     <text>赞助</text>
 </view>
-<view class="text">AI识物的使用完全免费，但也需要有相应的资金支持才能持续项目的维护与升级，您可以通过微信来赞助本程序。</view>
+<view class="text">图片识别的使用完全免费，但也需要有相应的资金支持才能持续项目的维护与升级，您可以通过微信来赞助本程序。</view>
 <view class="text">赞助资金将用于服务器维护、程序三期升级计划。</view>
 <view class="cont">
      <view bindtap="goWx" class="btn">
@@ -57,7 +57,7 @@
             <text style="color:#999">
 或直接搜索添加
 </text>
-            <text>微信号：wbs2463080236 </text>
+            <text>微信号：woyekeyiha </text>
             <text bindtap="copyWx" class="link">点击复制</text>
         </view>
     </view>

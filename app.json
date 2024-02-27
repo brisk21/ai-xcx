@@ -25,7 +25,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#5cadff",
-    "navigationBarTitleText": "AI识物",
+    "navigationBarTitleText": "简单图片识别工具",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
@@ -46,8 +46,7 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap10.json",
-  "navigateToMiniProgramAppIdList": [
-    "wx18a2ac992306a5a4"
-  ]
+  "sitemapLocation": "sitemap.json",
+ 
+  "__usePrivacyCheck__": true
 }

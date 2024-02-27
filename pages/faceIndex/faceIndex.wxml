@@ -17,12 +17,11 @@
         </block>
 
       </swiper>
-      <button bindtap="Face" class='btn' id="camera">
+      <button open-type="agreePrivacyAuthorization" bindtap="Face" class='btn' id="camera">
         <i-icon type="camera_fill" size="28" color="#fff" /> 拍照检测
       </button>
       <view class='xc' bindtap="Face" id="album">
         <text>从相册选择></text>
-        {{id}}
       </view>
     
     </view>

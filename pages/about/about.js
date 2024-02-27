@@ -43,7 +43,7 @@ Page({
   },
   onShareAppMessage: function(a) {
     return {
-      title: "AI识物-文字识别、菜品识别、植物识别、动物识别、车辆识别、菜谱大全、人脸检测",
+      title: "图片识物-文字识别、菜品识别、植物识别、动物识别、车辆识别、菜谱大全、人脸检测",
       path: "/pages/index/index",
       success: function(a) {},
       fail: function(a) {}

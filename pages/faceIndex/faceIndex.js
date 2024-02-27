@@ -6,26 +6,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    id :''
   },
   Face: function (a) {
+    console.log('click')
     let types = a.currentTarget.id;
-    wx.chooseImage({
+    wx.chooseMedia({
+      mediaType:['image'],
       count: 1,
       sizeType: ["original", "compressed"],
-      sourceType: [types],
+      sourceType: ['album', 'camera'],
+      fail:function(err){
+        console.log('err',err)
+    },
       success: function (a) {
-        var e = a.tempFilePaths;
-        getApp().globalData.img = e, wx.showLoading({
+        console.log('csuccess',a)
+        var e = a.tempFiles;
+        getApp().globalData.img = e[0]['tempFilePath'], wx.showLoading({
           title: "正在识别"
         }), wx.uploadFile({
           url: api.getuploadImgUrl(),
-          filePath: e[0],
+          filePath: e[0]['tempFilePath'],
           name: "file",
           formData: {
             user: api.getToken(),
             type:'face'
           },
+         fail:function(err){
+          console.log('uperr',err)
+         },
           success: function (res) {
             res = JSON.parse(res.data)
             //console.log(res)

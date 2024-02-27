@@ -118,7 +118,7 @@ page {
 
 .xc {
   text-align: center;
-  color: #fff;
+  color: rgb(221, 141, 22);
   font-size: 18px;
   margin-top: 1rem;
 }

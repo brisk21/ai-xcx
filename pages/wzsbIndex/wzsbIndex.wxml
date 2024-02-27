@@ -10,7 +10,7 @@
             </view>
             <view class='detail'>
               <view class='userName'>文字识别</view>
-              AI识物提供免费、便捷、精准的ocr文字识别服务，将图片转化为可编辑文字，为用户日常输入助力。
+              图片识别提供免费、便捷、精准的ocr文字识别服务，将图片转化为可编辑文字，为用户日常输入助力。
             </view>
           </swiper-item>
 
